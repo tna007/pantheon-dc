@@ -1,0 +1,6 @@
+name: well-really
+recipe: pantheon
+config:
+  framework: drupal8
+  site: well-really
+  id: c18264d6-03dc-4adb-a551-e1edaf63b0b8
