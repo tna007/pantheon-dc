@@ -1,0 +1,20 @@
+uuid: 91432c0d-b05d-41c0-b86d-8601a673ad33
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_attribute.area
+id: commerce_product_attribute_value.area.default
+targetEntityType: commerce_product_attribute_value
+bundle: area
+mode: default
+content:
+  name:
+    label: hidden
+    type: string
+    weight: -5
+    region: content
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+hidden: {  }

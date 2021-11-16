@@ -1,0 +1,8 @@
+uuid: 0fd9dfc3-ceb5-4f28-9b84-c723b96ef21a
+langcode: en
+status: true
+dependencies: {  }
+name: Locations
+vid: locations
+description: 'Different location types the events can take place'
+weight: 0

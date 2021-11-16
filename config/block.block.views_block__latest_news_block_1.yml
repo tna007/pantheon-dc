@@ -1,0 +1,29 @@
+uuid: 7d816402-36df-46e3-9f82-097de1573bd5
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.latest_news
+  module:
+    - system
+    - views
+  theme:
+    - belgrade
+id: views_block__latest_news_block_1
+theme: belgrade
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_block:latest_news-block_1'
+settings:
+  id: 'views_block:latest_news-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false

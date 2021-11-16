@@ -1,0 +1,18 @@
+uuid: fc4551d3-fb37-40c4-829d-8ef4c2a28320
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.locations
+id: node.locations.title
+field_name: title
+entity_type: node
+bundle: locations
+label: Name
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

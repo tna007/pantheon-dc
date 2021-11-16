@@ -1,0 +1,68 @@
+uuid: 86914ab9-4301-4744-b0d4-d18be8b41f10
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.vip_tickets
+    - field.field.commerce_product_variation.vip_tickets.attribute_area
+    - field.field.commerce_product_variation.vip_tickets.field_date
+    - field.field.commerce_product_variation.vip_tickets.field_image
+    - image.style.250x250_thumbnail
+  module:
+    - commerce_price
+    - datetime
+    - image
+id: commerce_product_variation.vip_tickets.default
+targetEntityType: commerce_product_variation
+bundle: vip_tickets
+mode: default
+content:
+  attribute_area:
+    type: entity_reference_entity_view
+    weight: 3
+    region: content
+    label: inline
+    settings:
+      link: false
+      view_mode: default
+    third_party_settings: {  }
+  field_date:
+    weight: 4
+    label: inline
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_image:
+    weight: 2
+    label: hidden
+    settings:
+      image_style: 250x250_thumbnail
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  list_price:
+    label: inline
+    type: commerce_price_default
+    weight: 0
+    region: content
+    settings:
+      strip_trailing_zeroes: false
+      currency_display: symbol
+    third_party_settings: {  }
+  price:
+    label: inline
+    type: commerce_price_default
+    weight: 1
+    region: content
+    settings:
+      strip_trailing_zeroes: false
+      currency_display: symbol
+    third_party_settings: {  }
+hidden:
+  product_id: true
+  sku: true
+  title: true

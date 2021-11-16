@@ -1,0 +1,22 @@
+uuid: b7d53f46-7473-4b47-b6e3-5699dd4d2767
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - commerce_bootstrap
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: commerce_bootstrap_content
+theme: commerce_bootstrap
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

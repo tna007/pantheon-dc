@@ -1,0 +1,44 @@
+uuid: 3a81c613-56b8-4931-a3fa-a0b029413566
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.standard_ticket
+    - core.entity_view_mode.commerce_product_variation.catalog
+    - field.field.commerce_product_variation.standard_ticket.attribute_area
+    - field.field.commerce_product_variation.standard_ticket.field_date
+    - field.field.commerce_product_variation.standard_ticket.field_image
+    - image.style.catalog
+  module:
+    - datetime
+    - image
+id: commerce_product_variation.standard_ticket.catalog
+targetEntityType: commerce_product_variation
+bundle: standard_ticket
+mode: catalog
+content:
+  field_date:
+    type: datetime_default
+    weight: 1
+    region: content
+    label: visually_hidden
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+  field_image:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: catalog
+      image_link: content
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden:
+  attribute_area: true
+  list_price: true
+  price: true
+  product_id: true
+  sku: true
+  title: true

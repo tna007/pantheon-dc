@@ -1,0 +1,8 @@
+uuid: b8b87a24-d02f-4c16-8adb-ea23f29646a7
+langcode: en
+status: true
+dependencies: {  }
+name: Amenities
+vid: ameneties
+description: 'Extra features that the locations have'
+weight: 0

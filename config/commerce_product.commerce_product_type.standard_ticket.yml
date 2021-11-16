@@ -1,0 +1,12 @@
+uuid: fed8a7d2-6594-4159-a58e-c718334652d8
+langcode: en
+status: true
+dependencies: {  }
+id: standard_ticket
+label: 'Standard ticket'
+description: ''
+variationType: standard_ticket
+multipleVariations: true
+injectVariationFields: true
+traits: {  }
+locked: false

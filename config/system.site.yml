@@ -1,0 +1,14 @@
+uuid: 71e53639-d1d3-41d4-ba72-67f4185f468f
+name: TicketD9
+mail: tnaa247@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE

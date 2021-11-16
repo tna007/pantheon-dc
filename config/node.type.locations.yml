@@ -1,0 +1,17 @@
+uuid: 41a4f78b-7a06-4d04-8f89-90f15109ebe0
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Locations
+type: locations
+description: 'Enter the various locations for events'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

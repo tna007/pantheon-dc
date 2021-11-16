@@ -1,0 +1,15 @@
+uuid: 181fa935-ac7a-4513-8e49-cb3085d6a39a
+langcode: en
+status: true
+dependencies: {  }
+name: catalog
+label: 'Catalog (370x370)'
+effects:
+  71dec105-26ed-45bb-b764-1d7f1f51db01:
+    uuid: 71dec105-26ed-45bb-b764-1d7f1f51db01
+    id: image_scale
+    weight: 1
+    data:
+      width: 370
+      height: 370
+      upscale: false

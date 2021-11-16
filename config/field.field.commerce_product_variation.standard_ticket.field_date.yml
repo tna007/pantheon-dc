@@ -1,0 +1,21 @@
+uuid: 1db7e88b-ff64-457c-b737-5494a59cd26c
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.standard_ticket
+    - field.storage.commerce_product_variation.field_date
+  module:
+    - datetime
+id: commerce_product_variation.standard_ticket.field_date
+field_name: field_date
+entity_type: commerce_product_variation
+bundle: standard_ticket
+label: Date
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

@@ -1,0 +1,8 @@
+uuid: 6304eff2-b782-4563-b60e-e001a92a4bc4
+langcode: en
+status: true
+dependencies: {  }
+name: Categories
+vid: categories
+description: 'Events categories'
+weight: 0

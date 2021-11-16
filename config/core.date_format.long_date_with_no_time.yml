@@ -1,0 +1,8 @@
+uuid: 09419d30-079e-45be-95f6-e75498e0eac1
+langcode: en
+status: true
+dependencies: {  }
+id: long_date_with_no_time
+label: 'Short date with no time'
+locked: false
+pattern: m/d/Y

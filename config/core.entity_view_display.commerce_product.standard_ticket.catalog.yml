@@ -1,0 +1,29 @@
+uuid: 831f55bb-d378-4982-a62f-b88efa0f4989
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.standard_ticket
+    - core.entity_view_mode.commerce_product.catalog
+    - field.field.commerce_product.standard_ticket.body
+    - field.field.commerce_product.standard_ticket.field_category
+id: commerce_product.standard_ticket.catalog
+targetEntityType: commerce_product
+bundle: standard_ticket
+mode: catalog
+content:
+  title:
+    label: hidden
+    type: string
+    weight: 0
+    region: content
+    settings:
+      link_to_entity: true
+    third_party_settings: {  }
+hidden:
+  body: true
+  created: true
+  field_category: true
+  stores: true
+  uid: true
+  variations: true

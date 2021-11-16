@@ -1,0 +1,10 @@
+uuid: 80f91d39-3aa8-4c85-b89b-725229c762a7
+langcode: en
+status: true
+dependencies: {  }
+id: vip_tickets
+label: 'VIP ticket'
+orderItemType: default
+generateTitle: false
+traits: {  }
+locked: false

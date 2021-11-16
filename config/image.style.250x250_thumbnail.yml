@@ -1,0 +1,15 @@
+uuid: 32353e32-7c47-47d1-a3a3-15bcceaf0938
+langcode: en
+status: true
+dependencies: {  }
+name: 250x250_thumbnail
+label: '250x250 thumbnail'
+effects:
+  03d59a30-0938-460a-a4d6-49a075ce93f6:
+    uuid: 03d59a30-0938-460a-a4d6-49a075ce93f6
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 250
+      height: 250
+      anchor: center-center
