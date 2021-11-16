@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2891b886561bd14535118adafcc7d2fe",
+    "content-hash": "07267e25cb1c3bff51308a3f7a40ade2",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2940,6 +2940,62 @@
             "homepage": "https://www.drupal.org/project/entity_reference_revisions",
             "support": {
                 "source": "https://git.drupalcode.org/project/entity_reference_revisions"
+            }
+        },
+        {
+            "name": "drupal/image_delta_formatter",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/image_delta_formatter.git",
+                "reference": "8.x-1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/image_delta_formatter-8.x-1.1.zip",
+                "reference": "8.x-1.1",
+                "shasum": "abe73ff63f3fb553e1aa0da721bfb72248f8da7f"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.1",
+                    "datestamp": "1595075220",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "bojanz",
+                    "homepage": "https://www.drupal.org/user/86106"
+                },
+                {
+                    "name": "fgm",
+                    "homepage": "https://www.drupal.org/user/27985"
+                },
+                {
+                    "name": "jsacksick",
+                    "homepage": "https://www.drupal.org/user/972218"
+                },
+                {
+                    "name": "mglaman",
+                    "homepage": "https://www.drupal.org/user/2416470"
+                }
+            ],
+            "description": "Provides a formatter that displays a specific delta of a multivalue imagefield.",
+            "homepage": "https://www.drupal.org/project/image_delta_formatter",
+            "support": {
+                "source": "https://git.drupalcode.org/project/image_delta_formatter"
             }
         },
         {
