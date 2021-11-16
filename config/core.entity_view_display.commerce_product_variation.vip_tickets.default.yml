@@ -7,7 +7,7 @@ dependencies:
     - field.field.commerce_product_variation.vip_tickets.attribute_area
     - field.field.commerce_product_variation.vip_tickets.field_date
     - field.field.commerce_product_variation.vip_tickets.field_image
-    - image.style.250x250_thumbnail
+    - image.style.catalog
   module:
     - commerce_price
     - datetime
@@ -37,9 +37,9 @@ content:
     region: content
   field_image:
     weight: 2
-    label: hidden
+    label: inline
     settings:
-      image_style: 250x250_thumbnail
+      image_style: catalog
       image_link: ''
     third_party_settings: {  }
     type: image

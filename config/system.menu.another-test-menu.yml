@@ -1,0 +1,8 @@
+uuid: 3f08486e-74b4-462a-9d0b-0600842f76b7
+langcode: en
+status: true
+dependencies: {  }
+id: another-test-menu
+label: 'Another Test Menu'
+description: 'This for showing Main Nav duplicate on Header area.'
+locked: false

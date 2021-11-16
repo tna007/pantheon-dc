@@ -4,7 +4,7 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.commerce_product.catalog
-    - system.menu.admin
+    - system.menu.main
   module:
     - commerce_product
 id: products
@@ -195,12 +195,8 @@ display:
       menu:
         type: normal
         title: Products
-        description: ''
-        expanded: false
-        parent: ''
+        menu_name: main
         weight: -48
-        context: '0'
-        menu_name: admin
     cache_metadata:
       max-age: -1
       contexts:

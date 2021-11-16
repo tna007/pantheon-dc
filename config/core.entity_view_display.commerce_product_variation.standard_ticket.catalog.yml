@@ -6,28 +6,19 @@ dependencies:
     - commerce_product.commerce_product_variation_type.standard_ticket
     - core.entity_view_mode.commerce_product_variation.catalog
     - field.field.commerce_product_variation.standard_ticket.attribute_area
-    - field.field.commerce_product_variation.standard_ticket.field_date
     - field.field.commerce_product_variation.standard_ticket.field_image
     - image.style.catalog
   module:
-    - datetime
+    - commerce_order
+    - commerce_price
     - image
 id: commerce_product_variation.standard_ticket.catalog
 targetEntityType: commerce_product_variation
 bundle: standard_ticket
 mode: catalog
 content:
-  field_date:
-    type: datetime_default
-    weight: 1
-    region: content
-    label: visually_hidden
-    settings:
-      format_type: medium
-      timezone_override: ''
-    third_party_settings: {  }
   field_image:
-    weight: 0
+    weight: 1
     label: hidden
     settings:
       image_style: catalog
@@ -35,10 +26,30 @@ content:
     third_party_settings: {  }
     type: image
     region: content
+  list_price:
+    label: hidden
+    type: commerce_price_default
+    weight: 0
+    region: content
+    settings:
+      strip_trailing_zeroes: false
+      currency_display: symbol
+    third_party_settings: {  }
+  price:
+    label: hidden
+    type: commerce_price_calculated
+    weight: 2
+    region: content
+    settings:
+      currency_display: symbol
+      strip_trailing_zeroes: false
+      adjustment_types:
+        fee: '0'
+        promotion: '0'
+        tax: '0'
+    third_party_settings: {  }
 hidden:
   attribute_area: true
-  list_price: true
-  price: true
   product_id: true
   sku: true
   title: true

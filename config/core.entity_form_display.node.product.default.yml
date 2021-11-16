@@ -4,7 +4,6 @@ status: true
 dependencies:
   config:
     - field.field.node.product.body
-    - field.field.node.product.field_product
     - field.field.node.product.field_product_image
     - node.type.product
   module:
@@ -33,16 +32,6 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_product:
-    weight: 123
-    settings:
-      match_operator: CONTAINS
-      match_limit: 10
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-    type: entity_reference_autocomplete
-    region: content
   field_product_image:
     type: media_library_widget
     weight: 122

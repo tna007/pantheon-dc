@@ -5,12 +5,10 @@ dependencies:
   config:
     - commerce_product.commerce_product_variation_type.standard_ticket
     - field.field.commerce_product_variation.standard_ticket.attribute_area
-    - field.field.commerce_product_variation.standard_ticket.field_date
     - field.field.commerce_product_variation.standard_ticket.field_image
     - image.style.thumbnail
   module:
     - commerce_price
-    - datetime
     - image
 id: commerce_product_variation.standard_ticket.default
 targetEntityType: commerce_product_variation
@@ -22,12 +20,6 @@ content:
     weight: 1
     settings: {  }
     third_party_settings: {  }
-    region: content
-  field_date:
-    weight: 92
-    settings: {  }
-    third_party_settings: {  }
-    type: datetime_default
     region: content
   field_image:
     weight: 91
@@ -63,6 +55,14 @@ content:
       display_label: true
     weight: 90
     region: content
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
 hidden:
   created: true

@@ -5,12 +5,9 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.product.body
-    - field.field.node.product.field_product
     - field.field.node.product.field_product_image
-    - image.style.thumbnail
     - node.type.product
   module:
-    - media
     - text
     - user
 id: node.product.teaser
@@ -21,24 +18,15 @@ content:
   body:
     label: hidden
     type: text_summary_or_trimmed
-    weight: 2
+    weight: 101
     settings:
       trim_length: 600
     third_party_settings: {  }
     region: content
-  field_product_image:
-    type: media_thumbnail
-    weight: 1
-    region: content
-    label: hidden
-    settings:
-      image_style: thumbnail
-      image_link: ''
-    third_party_settings: {  }
   links:
-    weight: 0
-    region: content
+    weight: 100
     settings: {  }
     third_party_settings: {  }
+    region: content
 hidden:
-  field_product: true
+  field_product_image: true
