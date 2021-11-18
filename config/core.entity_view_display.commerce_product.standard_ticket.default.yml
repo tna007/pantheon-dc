@@ -6,16 +6,9 @@ dependencies:
     - commerce_product.commerce_product_type.standard_ticket
     - field.field.commerce_product.standard_ticket.body
     - field.field.commerce_product.standard_ticket.field_category
-    - field.field.commerce_product.standard_ticket.layout_builder__layout
   module:
     - commerce_product
-    - layout_builder
-    - layout_discovery
     - text
-third_party_settings:
-  layout_builder:
-    allow_custom: false
-    enabled: false
 id: commerce_product.standard_ticket.default
 targetEntityType: commerce_product
 bundle: standard_ticket
