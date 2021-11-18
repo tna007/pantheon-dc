@@ -1,6 +1,6 @@
 uuid: 1275fa2a-8444-4cfa-8107-0c63efccb46f
 langcode: en
-status: false
+status: true
 dependencies:
   content:
     - 'block_content:3_column_media_block:09a4c634-81c5-42ea-ad66-40f3181e57c3'
@@ -12,7 +12,7 @@ dependencies:
 id: sports
 theme: belgrade
 region: content
-weight: -2
+weight: -3
 provider: null
 plugin: 'block_content:09a4c634-81c5-42ea-ad66-40f3181e57c3'
 settings:
