@@ -1,23 +1,42 @@
-uuid: a241dd92-05de-4a5e-97ad-5681ce6bd9cf
+uuid: 50a8b831-cd55-42ea-a1c5-e3807b7b35a3
 langcode: en
 status: true
 dependencies:
   config:
-    - commerce_product.commerce_product_type.vip_tickets
+    - commerce_product.commerce_product_type.vip_ticket
+    - field.field.commerce_product.vip_ticket.body
+    - field.field.commerce_product.vip_ticket.field_category
   module:
     - commerce
     - path
-id: commerce_product.vip_tickets.default
+    - text
+id: commerce_product.vip_ticket.default
 targetEntityType: commerce_product
-bundle: vip_tickets
+bundle: vip_ticket
 mode: default
 content:
+  body:
+    type: text_textarea_with_summary
+    weight: 1
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+    region: content
   created:
     type: datetime_timestamp
     weight: 10
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_category:
+    weight: 91
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
   path:
     type: path
     weight: 30

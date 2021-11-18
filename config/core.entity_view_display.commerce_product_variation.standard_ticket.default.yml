@@ -5,7 +5,7 @@ dependencies:
   config:
     - commerce_product.commerce_product_variation_type.standard_ticket
     - field.field.commerce_product_variation.standard_ticket.attribute_area
-    - field.field.commerce_product_variation.standard_ticket.field_image
+    - field.field.commerce_product_variation.standard_ticket.field_images
     - image.style.product_570x570_
   module:
     - commerce_order
@@ -16,8 +16,8 @@ targetEntityType: commerce_product_variation
 bundle: standard_ticket
 mode: default
 content:
-  field_image:
-    weight: 1
+  field_images:
+    weight: 3
     label: hidden
     settings:
       image_style: product_570x570_

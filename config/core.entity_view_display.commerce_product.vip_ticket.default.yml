@@ -1,0 +1,57 @@
+uuid: 25ce3176-452d-40cf-8fd5-c01871c7b9fe
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.vip_ticket
+    - field.field.commerce_product.vip_ticket.body
+    - field.field.commerce_product.vip_ticket.field_category
+  module:
+    - commerce_product
+    - layout_builder
+    - text
+third_party_settings:
+  layout_builder:
+    allow_custom: false
+    enabled: false
+id: commerce_product.vip_ticket.default
+targetEntityType: commerce_product
+bundle: vip_ticket
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_category:
+    weight: 3
+    label: hidden
+    settings:
+      link: false
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  title:
+    label: hidden
+    type: string
+    weight: 0
+    region: content
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  variations:
+    type: commerce_add_to_cart
+    weight: 2
+    region: content
+    label: hidden
+    settings:
+      combine: true
+    third_party_settings: {  }
+hidden:
+  created: true
+  layout_builder__layout: true
+  stores: true
+  uid: true

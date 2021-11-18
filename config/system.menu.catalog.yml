@@ -1,0 +1,8 @@
+uuid: 3a9db9fe-ae53-4365-b040-0e82ef166a74
+langcode: en
+status: true
+dependencies: {  }
+id: catalog
+label: Catalog
+description: ''
+locked: false

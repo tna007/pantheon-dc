@@ -1,20 +1,30 @@
-uuid: 3a81c613-56b8-4931-a3fa-a0b029413566
+uuid: ba90b5fe-2c36-470d-b6ba-7b17f2035c97
 langcode: en
 status: true
 dependencies:
   config:
-    - commerce_product.commerce_product_variation_type.standard_ticket
+    - commerce_product.commerce_product_variation_type.vip_ticket
     - core.entity_view_mode.commerce_product_variation.catalog
-    - field.field.commerce_product_variation.standard_ticket.attribute_area
-    - field.field.commerce_product_variation.standard_ticket.field_images
+    - field.field.commerce_product_variation.vip_ticket.field_image
+    - image.style.catalog
   module:
     - commerce_order
     - commerce_price
-id: commerce_product_variation.standard_ticket.catalog
+    - image
+id: commerce_product_variation.vip_ticket.catalog
 targetEntityType: commerce_product_variation
-bundle: standard_ticket
+bundle: vip_ticket
 mode: catalog
 content:
+  field_image:
+    weight: 1
+    label: hidden
+    settings:
+      image_style: catalog
+      image_link: content
+    third_party_settings: {  }
+    type: image
+    region: content
   list_price:
     label: hidden
     type: commerce_price_default
@@ -38,8 +48,6 @@ content:
         tax: '0'
     third_party_settings: {  }
 hidden:
-  attribute_area: true
-  field_images: true
   product_id: true
   sku: true
   title: true
