@@ -194,13 +194,9 @@ display:
       path: products
       menu:
         type: normal
-        title: Store
+        title: Products
         menu_name: main
-        weight: -49
-        description: ''
-        parent: ''
-        expanded: false
-        enabled: true
+        weight: -48
     cache_metadata:
       max-age: -1
       contexts:

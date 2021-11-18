@@ -1,25 +1,25 @@
-uuid: 1275fa2a-8444-4cfa-8107-0c63efccb46f
+uuid: b047c748-ca5b-4fa9-94cb-728d9e973001
 langcode: en
-status: false
+status: true
 dependencies:
   content:
-    - 'block_content:3_column_media_block:09a4c634-81c5-42ea-ad66-40f3181e57c3'
+    - 'block_content:basic:a8867e54-435f-4474-abf5-e4c03874a976'
   module:
     - block_content
     - system
   theme:
     - belgrade
-id: sports
+id: frontpageblock
 theme: belgrade
 region: content
-weight: -2
+weight: -8
 provider: null
-plugin: 'block_content:09a4c634-81c5-42ea-ad66-40f3181e57c3'
+plugin: 'block_content:a8867e54-435f-4474-abf5-e4c03874a976'
 settings:
-  id: 'block_content:09a4c634-81c5-42ea-ad66-40f3181e57c3'
-  label: Sports
+  id: 'block_content:a8867e54-435f-4474-abf5-e4c03874a976'
+  label: 'Front Page Block'
   provider: block_content
-  label_display: visible
+  label_display: '0'
   status: true
   info: ''
   view_mode: full

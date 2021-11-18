@@ -35,8 +35,8 @@ features:
   favicon: false
   node_user_picture: true
 logo:
-  path: 'public://vip.jpeg'
+  path: 'public://MicrosoftTeams-image (2).png'
   url: ''
-  use_default: true
+  use_default: false
 reset_http_request_cache: ''
 table: ''
