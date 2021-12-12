@@ -121,7 +121,7 @@ upstream/web/
 /web/sites/example.settings.local.php
 /web/sites/example.sites.php
 /web/themes/README.txt
-/web/themes/custom
+
 /.drush-lock-update
 
 # Other common rules
