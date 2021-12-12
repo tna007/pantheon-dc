@@ -6,7 +6,7 @@ global-css:
 theme:
   css:
     theme:
-      'assets/css/style.css': { }
+      'assets/css/styles.css': { }
 fonts:
   css:
     theme:
