@@ -1,0 +1,14 @@
+global-css:
+  version: 1.0
+  css:
+    theme:
+      css/styles.css: {}
+theme:
+  css:
+    theme:
+      'assets/css/styles.css': { }
+fonts:
+  css:
+    theme:
+      '//fonts.googleapis.com/css?family=Montserrat': { type: external, minified: true }
+      css/styles.css: {}

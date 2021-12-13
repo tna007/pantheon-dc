@@ -1,0 +1,25 @@
+name: "Anh's theme"
+core: 8.x
+core_version_requirement: ^8 || ^9
+type: theme
+base theme: belgrade
+
+description: 'Anh creates theme for fun.'
+
+regions:
+  navigation: 'Navigation'
+  top_navigation: 'Navigation (Top bar)'
+  header: 'Header'
+  highlighted: 'Highlighted'
+  help: 'Help'
+  content: 'Content'
+  sidebar_first: 'Primary'
+  sidebar_second: 'Secondary'
+  footer: 'Footer'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+
+libraries-override:
+  # Replace an entire library.
+  belgrade/fonts: anhtheme/fonts
+  # belgrade/theme: anhtheme/theme
