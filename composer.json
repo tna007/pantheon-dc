@@ -18,6 +18,7 @@
         "drupal/belgrade": "^1.1",
         "drupal/commerce": "^2.27",
         "drupal/commerce_cart_flyout": "^1.8",
+        "drupal/commerce_recurring": "^1.0@beta",
         "drupal/devel": "^4.1",
         "drupal/image_delta_formatter": "^1.1",
         "drupal/image_slider": "^1.3",
